@@ -45,6 +45,6 @@ UPDATE users SET email = :email WHERE id = :id
 
 
 -- HQL
-DELETE FROM User WHERE id = :id
+DELETE FROM User u WHERE u.id = :id
 -- SQL
 DELETE FROM users WHERE id = :id
